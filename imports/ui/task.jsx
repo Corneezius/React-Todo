@@ -31,11 +31,11 @@ export default class Task extends Component {
              onClick={this.toggleChecked.bind(this)}
            />
 
-           <span className="text">
-              <strong>{this.props.task.username}</strong>: {this.props.task.text}
-            </span>
 
-           <span className="text">{this.props.task.text}</span>
+              <div className="task">{this.props.task.text}</div>
+              <div className="user">-{this.props.task.username}</div>
+
+
          </li>
        );
      }

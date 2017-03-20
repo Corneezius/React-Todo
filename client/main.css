@@ -124,3 +124,18 @@ header .hide-completed {
     padding-bottom: 5px;
   }
 }
+
+.task {
+  text-align:left;
+  font-size:22px;
+  font-weight:bold;
+  padding-left:30px;
+
+
+}
+.user {
+  text-align:left;
+  font-size:14px;
+  padding-left:30px;
+  padding-top:20px;
+}
