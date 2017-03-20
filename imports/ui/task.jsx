@@ -31,7 +31,7 @@ export default class Task extends Component {
              onClick={this.toggleChecked.bind(this)}
            />
 
-
+           
               <div className="task">{this.props.task.text}</div>
               <div className="user">-{this.props.task.username}</div>
 
